@@ -1,0 +1,20 @@
+{
+  "name": "herokumongodb",
+  "version": "1.0.0",
+  "description": "\"A MEAN app that allows users to manage contact lists\"",
+  "main": "server.js",
+  "engines": {
+    "node": "6.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "G. van Til",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "mongodb": "^2.1.18"
+  }
+}
